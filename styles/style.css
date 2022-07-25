@@ -17,11 +17,11 @@
 }
 
 .logo {
-  width: 229;
-  height: 32;
+  width: 229px;
+  height: 32px;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -64,7 +64,7 @@
   right: 0;
   width: 765px;
   height: 608px;
-
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -271,6 +271,9 @@ margin: 0;
   right: -210px;
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
+
   z-index: 0;
 }
 
@@ -307,7 +310,7 @@ margin: 0;
   flex-basis: 711px;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 228px;
   height: 32px;
 }
