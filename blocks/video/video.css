@@ -1,0 +1,8 @@
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
